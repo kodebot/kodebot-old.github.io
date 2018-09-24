@@ -80,5 +80,5 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/kodebot/kodebot.github.io
-  branch: published
+  branch: master
   message:
