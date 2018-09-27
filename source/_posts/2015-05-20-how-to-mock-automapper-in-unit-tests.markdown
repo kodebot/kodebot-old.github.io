@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["automapper", "unit-testing"]
-alias: ["/blog/post/how-to-mock-automapper-in-unit-tests"]
 ---
 
 <p><strong>Introduction</strong></p>

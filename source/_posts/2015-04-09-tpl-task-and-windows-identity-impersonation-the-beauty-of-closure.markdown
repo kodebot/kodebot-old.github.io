@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["c#"]
-alias: ["/blog/post/tpl-task-and-windows-identity-impersonation-the-beauty-of-closure"]
 ---
 
 <p>I have created a web application with Windows Authentication and impersonation is enabled as I need the application connect to SQL Server database using Windows Authetication.</p>

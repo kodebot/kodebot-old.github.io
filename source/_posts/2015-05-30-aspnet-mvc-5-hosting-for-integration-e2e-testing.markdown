@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["asp.net", "mvc5"]
-alias: ["/blog/post/ASPNET-MVC-5-Hosting-for-Integration-E2E-Testing", "/blog/post/aspnet-mvc-5-hosting-for-integration-e2e-testing"]
 ---
 
 <h4>Introduction</h4>

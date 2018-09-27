@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["c#", "unit-testing"]
-alias: ["/blog/post/structuring-unit-tests"]
 ---
 
 <p>I have been following the same unit test structure that Phil Haack described <a href="http://haacked.com/archive/2012/01/02/structuring-unit-tests.aspx/" target="_blank">here</a>. &nbsp;But, I use slightly different version when my tests need too many repeated test setups and cleanups.&nbsp;</p><!-- more -->

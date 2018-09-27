@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["asp.net", "mvc5",]
-alias: ["/blog/post/ASPNET-MVC-5-JsonResult-with-Http-Status-Code-400", "/blog/post/aspnet-mvc-5-jsonresult-with-http-status-code-400"]
 ---
 
 ASP.NET Web API 2 introduced several helper methods like Ok, NotFound, BadRequest, etc… . This allows us to write code which makes its intentions clear.

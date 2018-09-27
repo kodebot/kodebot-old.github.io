@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["javascript", "es6", "es2015", "sublime"]
-alias: ["/blog/post/ecmascript-6-sublime-text-editor-build-system"]
 ---
 
 <p>The specification for ECMAScript 6 (aka ES6, ECMAScript harmony) is expected to be released in June 2015 and many tools, frameworks and browers have started implementing the features of ES6. For example, <a href="https://angular.io/" target="_blank">Angular 2.0</a>&nbsp;and <a href="http://aurelia.io/" target="_blank">Aurelia</a>&nbsp;allows us to write code in ES6 now. There are transpilers as well out there, which <!-- more -->allows us to write code in ES6 and transpile them into ES5. I have come across two major transpilers&nbsp;<a href="https://github.com/google/traceur-compiler" target="_blank">traceur</a>&nbsp;and&nbsp;<a href="https://babeljs.io/">babel</a>, they are equally good.</p>

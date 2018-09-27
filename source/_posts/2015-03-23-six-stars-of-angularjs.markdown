@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["angularjs", "javascript"]
-alias: ["/blog/post/six-stars-of-angularjs"]
 ---
 
 <h2>Introduction</h2>
@@ -125,4 +124,4 @@ alias: ["/blog/post/six-stars-of-angularjs"]
     }{% endcodeblock %}
 <h2>When to use?</h2>
 <p>As you would have understood by now, providers are the lowest level function available to create services. It gives you options to configure the services during its creation. It is recommended to use this function only when you need to create configurable services. You are better off with other functions&nbsp;available to create services if you don't want them to be configurable.</p>
-<p>We will look at other options to create services in <a href="/blog/2015/03/24/six-stars-of-angularjs-part-2" target="_blank">part 2</a>&nbsp;of this post.</p>
+<p>We will look at other options to create services in <a href="/2015/03/24/six-stars-of-angularjs-part-2" target="_blank">part 2</a>&nbsp;of this post.</p>

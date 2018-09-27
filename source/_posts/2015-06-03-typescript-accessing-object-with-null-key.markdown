@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["typescript"]
-alias: ["/blog/post/TypeScript-Accessing-object-with-null-key", "/blog/post/typescript-accessing-object-with-null-key"]
 ---
 
 <p>Objects in JavaScript is just a key value pair and key is usually string and value can be anything. The following is an example of JavaScript object literal</p><!-- more -->

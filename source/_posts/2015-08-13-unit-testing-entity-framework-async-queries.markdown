@@ -8,7 +8,7 @@ tags: [unit-testing, entity-framework]
 ---
 
 ## Introduction
-In my [last article](http://mvenkatraman.co.uk/blog/2015/08/10/unit-testing-entity-framework-queries/), we have seen how to unit test Entity Framework queries. Now, let's look at how to unit test asyn queries.
+In my [last article](/2015/08/10/unit-testing-entity-framework-queries/), we have seen how to unit test Entity Framework queries. Now, let's look at how to unit test asyn queries.
 When using async tasks, if we don't use it all the way then we are not using async tasks properly. For example, if you have async action method in your controller which queries database synchronously to send some data to the requester, then we are NOT using async properly as the thread is blocked during database operation. So, to take full advantage of async tasks, we have to use async tasks all the way wherever it is applicable. Fortunately, we get async query support starting from [Entity Framework 6](https://msdn.microsoft.com/en-us/data/jj819165.aspx).
 
 ## Async Queries

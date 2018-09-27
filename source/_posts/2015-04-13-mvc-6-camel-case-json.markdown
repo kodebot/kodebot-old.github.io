@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["asp.net", "mvc6"]
-alias: ["/blog/post/mvc-6-camel-case-json"]
 ---
 
 <p>I am excited with all the new features that are coming with MVC 6. One of the main differences between MVC 6 and previous versions is that it doesn't have two different libraries and controllers for MVC and Web <!-- more -->API.&nbsp;</p>

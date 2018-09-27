@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["asp.net", "mvc5"]
-alias: ["/blog/post/asp-net-5-tag-helpers-the-html-way"]
 ---
 
 <h4>Introduction</h4>

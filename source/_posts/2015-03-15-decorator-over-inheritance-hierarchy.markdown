@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["design-pattern", "c#"]
-alias: ["/blog/post/decorator-over-inheritance-hierarchy"]
 ---
 
 <p>I have used inheritance to solve a problem in many situations - some of them are correct and some of them are not when thinking about it now.</p>

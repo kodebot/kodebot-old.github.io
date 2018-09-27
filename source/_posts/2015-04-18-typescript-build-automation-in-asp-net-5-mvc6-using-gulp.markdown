@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["asp.net", "mvc6", "typescript"]
-alias: ["/blog/post/typescript-build-automation-in-asp-net-5-mvc6-using-gulp"]
 ---
 
 <h3>Introduction</h3>

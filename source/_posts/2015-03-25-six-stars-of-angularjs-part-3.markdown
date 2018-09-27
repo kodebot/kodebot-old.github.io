@@ -6,10 +6,9 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["angularjs", "javascript"]
-alias: ["/blog/post/six-stars-of-angularjs-part-3"]
 ---
 
-<p>In part <a href="/blog/2015/03/23/post/six-stars-of-angularjs" target="_blank">1</a>&nbsp;and <a href="/blog/2015/03/24/six-stars-of-angularjs-part-2" target="_blank">2</a>&nbsp;of this series, we have seen five different ways to create a service in angular.</p><!-- more -->
+<p>In part <a href="/2015/03/23/post/six-stars-of-angularjs" target="_blank">1</a>&nbsp;and <a href="/2015/03/24/six-stars-of-angularjs-part-2" target="_blank">2</a>&nbsp;of this series, we have seen five different ways to create a service in angular.</p><!-- more -->
 <p>The last one we are going to look at in this series is 'decorate' function of $provide service.</p>
 <h2>Decorator</h2>
 <p>The decorate function is NOT used to create a service, instead, this is used to decorate or replace an existing service. Let's look at this function with an example</p>

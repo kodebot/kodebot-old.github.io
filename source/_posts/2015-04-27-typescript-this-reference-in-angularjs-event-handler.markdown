@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["angularjs", "typescript"]
-alias: ["/blog/post/typescript-this-reference-in-angularjs-event-handler"]
 ---
 
 <p>Let's have a look at how AngularJS 1.x controller is usually created in TypeScript before we go into details of how AngularJS event handler and how 'this' works in the AngularJS event handler context. </p>

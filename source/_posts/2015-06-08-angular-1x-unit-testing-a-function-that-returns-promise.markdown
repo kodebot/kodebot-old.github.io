@@ -6,10 +6,9 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["angularjs", "javascript", "unit-testing"]
-alias: ["/blog/post/Angular-1x-Unit-Testing-a-function-that-returns-Promise", "/blog/post/angular-1x-unit-testing-a-function-that-returns-promise"]
 ---
 
-<p>I wrote <a href="/blog/2015/03/16/mocking-methods-that-returns-promise" target="_blank">this</a> post few months back which show how we can mock a function that returns Promise. In this post, we will see how to test a function that returns Promise.</p> <p>We will use the following simple controller as our SUT</p>
+<p>I wrote <a href="/2015/03/16/mocking-methods-that-returns-promise" target="_blank">this</a> post few months back which show how we can mock a function that returns Promise. In this post, we will see how to test a function that returns Promise.</p> <p>We will use the following simple controller as our SUT</p>
 <!-- more -->
 {% codeblock lang:js %}
 var app = angular.module("app");

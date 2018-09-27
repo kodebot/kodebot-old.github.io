@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["javascript", "unit-testing"]
-alias: ["/blog/post/mocking-methods-that-returns-promise"]
 ---
 
 <p>Promises are very useful to develope non-blocking web applications and it also helps to avoid <a href="http://calculist.org/blog/2011/12/14/why-coroutines-wont-work-on-the-web/" target="_blank">pyramid of doom</a>.</p>

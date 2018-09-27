@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["javascript", "unit-testing"]
-alias: ["/blog/post/organize-angularjs-tests-within-a-spec"]
 ---
 
 <p>I like to have one test file&nbsp;per components of AngularJS application. So, for example, homeController will have its own test file&nbsp;named homeSpec or homeControllerSpec.</p>

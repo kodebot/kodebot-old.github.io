@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["angularjs", "javascript"]
-alias: ["/blog/post/AngularJS-1x-Validation-on-File-Input-type", "/blog/post/angularjs-1x-validation-on-file-input-type"]
 ---
 
 <h5>Introduction</h5> <p>You might already known that AngularJS 1.x <a href="https://github.com/angular/angular.dart/issues/1094" target="_blank">doesn’t support</a> model binding for File Input type at the moment. This means, implementing any validation on File Input type is not straight forward as validation entirely depends on model binding.</p> <p>I have come across a requirement where, I need to create a form <!-- more -->with ‘required’ validation on File Input type and I also need to display bootstrap form feedback. There are number of <a href="http://stackoverflow.com/a/20506037/3208697" target="_blank">great solutions out there</a> to make file upload with angular easier but none of them provide easier way to enforce validation.</p> <h5>What I did?</h5> <p>First I have made file input type to look like a button as explained <a href="http://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3/" target="_blank">here</a>, and then made it as an add-on to a normal disabled text input as follows</p>

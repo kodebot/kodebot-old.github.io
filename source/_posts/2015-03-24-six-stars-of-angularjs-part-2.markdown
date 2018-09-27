@@ -6,10 +6,9 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["angularjs", "javascript"]
-alias: ["/blog/post/six-stars-of-angularjs-part-2"]
 ---
 
-<p>In <a href="/blog/2015/03/23/six-stars-of-angularjs" target="_blank">part 1</a>&nbsp;of this series, we have briefly seen how $provide and $injector work and we also took a deep dive on how we create a service using provider function of $provide service.</p><!-- more -->
+<p>In <a href="/2015/03/23/six-stars-of-angularjs" target="_blank">part 1</a>&nbsp;of this series, we have briefly seen how $provide and $injector work and we also took a deep dive on how we create a service using provider function of $provide service.</p><!-- more -->
 <p>Lets continue our journey and look at how and when we can&nbsp;use other&nbsp;functions of $provide service to create services.</p>
 <p>The following are the four&nbsp;functions we are going to look at now</p>
 <ol>

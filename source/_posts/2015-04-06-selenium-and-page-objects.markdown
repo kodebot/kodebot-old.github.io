@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["e2e-testing", "selenium", "c#"]
-alias: ["/blog/post/selenium-and-page-objects"]
 ---
 
 <p>I use&nbsp;<a href="http://docs.seleniumhq.org/" target="_blank">Selenium</a>&nbsp;or <a href="http://angular.github.io/protractor/#/" target="_blank">Protractor</a>&nbsp;for E2E tests that require browser automation. I prefer to use Selenium when I want to write my tests in C# and Protractor for AngularJS applications.</p><!-- more -->

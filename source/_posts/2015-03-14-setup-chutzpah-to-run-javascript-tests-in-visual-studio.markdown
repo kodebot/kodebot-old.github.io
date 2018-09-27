@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["unit-testing", "javascript"]
-alias: ["/blog/post/setup-chutzpah-to-run-javascript-tests-in-visual-studio"]
 ---
 
 <p>First thing first, install Chutzpah <a href="https://visualstudiogallery.msdn.microsoft.com/71a4e9bd-f660-448f-bd92-f5a65d39b7f0" target="_blank">Test Runner</a>&nbsp;and <a href="https://visualstudiogallery.msdn.microsoft.com/f8741f04-bae4-4900-81c7-7c9bfb9ed1fe" target="_blank">Test Adaptor for the Test Explorer</a>.</p>

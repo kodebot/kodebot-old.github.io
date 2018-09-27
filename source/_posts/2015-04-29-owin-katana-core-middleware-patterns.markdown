@@ -6,7 +6,6 @@ comments: true
 published: true
 categories: ["programming"]
 tags: ["owin", "katana", "asp.net", "mvc5"]
-alias: ["/blog/post/owin-katana-core-middleware-patterns"]
 ---
 
 <h3>Introduction</h3>
