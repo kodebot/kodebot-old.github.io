@@ -1,37 +1,50 @@
 <html>
-  <head></head>
-  <body>
-    <div class="blog-feed">Loading...</div>
+
+<head></head>
+
+<body>
+    <ul class="blog-feed">
+        <li class="loading"> Loading...</li>>
+    </ul>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script>
-      $(function(){
-        var url = 'https://blog.kodebot.com/rss.xml';
-        var news = $('.blog-feed');
-        function dateFormat(pubDate) {
-          var date = new Date(pubDate);
-          var months = Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
-          return date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear()
-        }
-        function loadNews(url) {
-          $.ajax({
-            url: url,
-            type: 'GET',
-            dataType: "xml"
-          })
-          .done(function(xml) {
-            var self = $(xml).find('channel item').first();
-            var url = $(self).find('link').text();
-            var title = $(self).find('title').text();
-            var text = $(self).find('description').text();
-            var date = $(self).find('pubDate').text();
-            news.html('<h2>' + title + '</h2><p>' + dateFormat(date) + '</p><p>' + text + '</p><a href="' + url + '">Link</a>');
-          })
-          .fail(function(){
-            news.hide();
-          });
-        }
-        loadNews(url);
-      });
+        $(function () {
+            var url = 'https://blog.kodebot.com/rss.xml';
+            var blogFeed = $('.blog-feed');
+            function dateFormat(pubDate) {
+                var date = new Date(pubDate);
+                var months = Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                return date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear()
+            }
+            function loadBlogFeed(url) {
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    dataType: "xml"
+                })
+                    .done(function (xml) {
+                        var blogItems = $(xml).find('channel item')
+                            .slice(0, 10);
+                        var blogDisplayHtml = "";
+                        for (var item of blogItems) {
+
+                            var url = $(item).find('link').text();
+                            var title = $(item).find('title').text();
+                            var text = $(item).find('description').text();
+                            var date = $(item).find('pubDate').text();
+                            blogDisplayHtml += '<li><h2>' + title + '</h2><p>' + dateFormat(date) + '</p><p>' + text + '</p><a href="' + url + '">Read more</a></li>'
+
+                        }
+
+                        blogFeed.html(blogDisplayHtml);
+                    })
+                    .fail(function () {
+                        blogFeed.hide();
+                    });
+            }
+            loadBlogFeed(url);
+        });
     </script>
-  </body>
+</body>
+
 </html>
